@@ -1,0 +1,20 @@
+{
+  "name": "kursus-10985",
+  "version": "1.0.0",
+  "description": "Kursus: Introduction to SQL Databases",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "git add . && git commit -m '.' && git push origin master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jalalhejazi/kursus-10985.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jalalhejazi/kursus-10985/issues"
+  },
+  "homepage": "https://github.com/Jalalhejazi/kursus-10985#readme"
+}
