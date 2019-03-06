@@ -22,9 +22,9 @@ REFERENCES Customers (CustomerID);
 GO
 
 --Test foreign key on CustomerDetails. The INSERT should fail because
---the CustomerID 5 doesn't exist in the Customers table.
+--the CustomerID 10 doesn't exist in the Customers table.
 INSERT INTO CustomerDetails
-VALUES (5,'9832 Mt. Dias Blv', 'Chicago','97321', '08/09/1970');
+VALUES (10,'9832 Mt. Dias Blv', 'Chicago','97321', '08/09/1970');
 GO
 
 --Add first foreign key to LineItems table
